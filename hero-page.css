@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.2;
+  word-spacing: 2px;
+}
+
+@font-face {
+  font-family: Big Shoulders Display;
+  src: url(fonts/BigShouldersDisplay-VariableFont_wght.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Outfit-Light;
+  src: url(fonts/Outfit-VariableFont_wght.ttf);
+  font-weight: normal;
+}
+
+.main-container {
+  font-family: Big Shoulders Display;
+  width: 1400px;
+  height: 900px;
+  gap: 0px;
+  opacity: 0px;
+  display: grid;
+  background-color: white;
+  grid-template-columns: repeat(10, 120px);
+  grid-template-rows: repeat(10, 120px);
+  /* mix-blend-mode: difference; */
+}
+
+.bg {
+  width: 1200px;
+  height: 900px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.bg-black {
+  width: 530px;
+  height: 900px;
+  background-color: black;
+  color: white;
+}
+
+.bg-picture {
+  width: 600px;
+  height: 900px;
+  background-image: url("assets/art-picture.png");
+  background-position: absolute;
+  background-size: cover;
+}
+
+.header {
+  width: auto;
+  height: 300px;
+  font-size: 100px;
+  font-style: Big Shoulders Display;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+p {
+  width: 300px;
+  height: auto;
+}
+
+.descr {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.description {
+  font-family: Outfit-Light;
+  font-weight: lighter;
+  width: 1050px;
+  height: 300px;
+
+  font-size: 25px;
+
+  grid-column: 3/10;
+  grid-row: 2/10;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: row;
+  gap: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.location-btn {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn {
+  width: 180px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-size: 21px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.location-btn > svg {
+  width: 50px;
+  height: 100%;
+  background-color: #d5966c;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.location-btn:hover .btn {
+  background-color: #d5966c;
+  color: rgb(255, 255, 255);
+  font-weight:normal;
+}
+
+.location-btn:hover svg {
+  background-color: black;
+  stroke: #d5966c;
+  color: #ffffff;
+}

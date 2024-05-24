@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sec-container {
+  margin-left: 300px;
+  width: 1200px;
+  height: 1300px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(15, 70px);
+  grid-template-rows: repeat(20, 70px);
+}
+
+.text-description {
+  font-family: Outfit-Light;
+  width: 400px;
+  height: 377px;
+  padding: 20px 20px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  grid-column: 1/15;
+  grid-row: 2/15;
+}
+
+.text2 {
+  width: 445px;
+  height: 372px;
+  background-color: black;
+  color: white;
+  grid-column: 11/15;
+  grid-row: 13/15;
+}
+
+.one-pic {
+  width: 724px;
+  height: 400px;
+  top: 980px;
+  left: 640px;
+  gap: 0px;
+  opacity: 0px;
+  grid-column: 7/15;
+  grid-row: 2/15;
+}
+
+.two-pic {
+  width: 635px;
+  height: 720px;
+  top: 1410px;
+  left: 165px;
+  gap: 0px;
+  opacity: 0px;
+  grid-column: 1/15;
+  grid-row: 8/15;
+}
+
+.three-pic {
+  width: 445px;
+  height: 313px;
+  top: 1410px;
+  left: 830px;
+  gap: 0px;
+  opacity: 0px;
+
+  grid-column: 11/15;
+  grid-row: 8/15;
+}
