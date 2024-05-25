@@ -86,21 +86,18 @@
     grid-row: 6/15;
     object-fit: cover;
   }
-footer{
-  height: 200px;
+  footer {
+    height: 200px;
   }
 
-  .footer-container{
+  .footer-container {
     /* align-items: flex-start;
     flex-direction: column; */
     padding-left: 30px;
     /* gap: 20px; */
     height: 200px;
   }
-
 }
-
-
 
 /* phone  display */
 @media screen and (min-width: 12px) and (max-width: 700px) {
@@ -113,14 +110,13 @@ footer{
     align-items: flex-end;
     color: black;
     background-image: url(assets/art-picture.png);
-    background-position:top;
-    background-size: 100%  500px;
+    background-position: top;
+    background-size: 100% 500px;
     background-repeat: no-repeat;
- 
   }
 
   .bg-picture {
-     display: none;
+    display: none;
     height: 300px;
     width: 100%;
   }
@@ -139,7 +135,6 @@ footer{
     align-self: flex-start;
     /* color: black; */
   }
-
 
   .description {
     grid-column: 5/10;
@@ -165,7 +160,7 @@ footer{
   } */
 
   .sec-container {
-     margin-left: 2vh;
+    margin-left: 2vh;
     margin-top: 15px;
     margin-bottom: 15px;
     width: 100%;
@@ -184,33 +179,29 @@ footer{
     height: 270px;
     background-color: black;
     color: white;
-   
   }
 
   .one-pic {
     width: 380px;
     height: auto;
-   
   }
 
-   .two-pic {
+  .two-pic {
     width: 380px;
     height: 600px;
-    
   }
   .three-pic {
     width: 380px;
   }
-footer{
-  height: 400px;
+  footer {
+    height: 400px;
   }
 
-  .footer-container{
+  .footer-container {
     align-items: flex-start;
     flex-direction: column;
     padding-left: 30px;
     gap: 20px;
     height: 400px;
   }
-
 }

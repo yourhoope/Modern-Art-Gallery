@@ -131,7 +131,7 @@ a {
 .location-btn:hover .btn {
   background-color: #d5966c;
   color: rgb(255, 255, 255);
-  font-weight:normal;
+  font-weight: normal;
 }
 
 .location-btn:hover svg {
